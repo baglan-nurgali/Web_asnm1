@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <h1 id="main-heading">Baglan Nurgali</h1>
+        <h2>2nd year comp science</h2>
+        <h3>About Me</h3>
+    </div>
+    <div class="main-container">
+        <p style="color: blue;">
+            Hello!
+        </p>
+        <p class="highlight">
+            This text styled with .highlight!
+        </p>
+        <div class="profile-box">
+            <img src="profile.jpg" alt="My photo" class="profile-img">
+            <p>My usable links</p>
+            <a href="https://github.com" target="_blank" class="custom-link">GitHub</a> | 
+            <a href="https://moodle.astanait.edu.kz" target="_blank" class="custom-link">Moodle AITU</a>
+        </div>
+        <div class="lists-container">
+            <h3>My hobbies:</h3>
+            <ol>
+                <li>Programming</li>
+                <li>Reading</li>
+                <li>Football</li>
+            </ol>
+            <h3>Favorite websites:</h3>
+            <ul>
+                <li><a href="https://google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="https://chatgpt.com" target="_blank">Chat GPT</a></li>
+            </ul>
+        </div>
+        <div class="button-section">
+            <button class="btn">Click Me</button>
+        </div>
+        <div class="table-section">
+            <h3>My schedule</h3>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Monday</td>
+                        <td>09:00 - 10:30</td>
+                    </tr>
+                    <tr>
+                        <td>Introduction to Functional Programming</td>
+                        <td>Wednesday</td>
+                        <td>11:00 - 12:30</td>
+                    </tr>
+                    <tr>
+                        <td>Discrete Mathematics</td>
+                        <td>Friday</td>
+                        <td>14:00 - 15:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="layout-table-section">
+            <h3>Layout table</h3>
+            <table class="layout-table">
+                <tr>
+                    <td class="menu-col">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li>Main</li>
+                            <li>About us</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </td>
+                    <td class="content-col">
+                        <h4>Main Content</h4>
+                        <p>This is example for a  two-column layout using a table</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="emoji-section">
+            <h3>My mood today🚀 😎 🔥</h3>
+        </div>
+        <div class="form-section">
+            <h3>Form</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="favorite_color" value="#2563eb">
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+        <div class="position-section">
+            <h3>CSS Positioning</h3>
+            <div class="box static-box">Static Box (default)</div>
+            <div class="box relative-box">Relative Box </div>
+            <div class="pos-container">
+                <div class="box absolute-box">Absolute Box</div>
+            </div>
+        </div>
+        <div class="float-section">
+            <h3>Float & Clear</h3>
+            <div class="float-box float-left">Float Left Box</div>
+            <div class="float-box float-right">Float Right Box</div>
+            <div class="clearfix"></div>
+            <p class="cleared-text">This text clears floating using CSS. <code>clear: both</code>.</p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <p>&copy; 2026 My First Website. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
